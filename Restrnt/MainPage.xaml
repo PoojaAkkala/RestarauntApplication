@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restrnt.MainPage">
+
+    <ScrollView>
+        
+
+            <Button
+                x:Name="CounterBtn"
+                ImageSource="/Users/murtazanazshaik/Desktop/restaurant.png"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center"/>
+    
+        
+    </ScrollView>
+
+</ContentPage>
+

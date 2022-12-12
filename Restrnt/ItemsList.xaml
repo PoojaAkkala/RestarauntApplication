@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restrnt.ItemsList"
+             Title="ItemsList">
+    
+    <Grid Padding="16" RowSpacing="2" ColumnSpacing="2"
+          RowDefinitions="*,*,*,*,*"
+          ColumnDefinitions="*,*,*,*"
+          >
+
+     
+
+        <Button FontSize="Large" Text="Cheese Burgger(14$)" Grid.Row="0" Grid.Column="0" Clicked ="buttona"/>
+        <Button FontSize="Large" Text="Hamm Burgger(12$)" Grid.Row="0" Grid.Column="1" Clicked ="buttonb"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="0" Grid.Column="2" Clicked ="buttonc"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="0" Grid.Column="3" Clicked ="buttond"/>
+
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="1" Grid.Column="0" Clicked ="buttone"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="1" Grid.Column="1" Clicked ="buttonf"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="1" Grid.Column="2" Clicked ="buttong"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="1" Grid.Column="3" Clicked ="buttonh"/>
+
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="2" Grid.Column="0" Clicked ="buttoni"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="2" Grid.Column="1" Clicked ="buttonj"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="2" Grid.Column="2" Clicked ="buttonk"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="2" Grid.Column="3" Clicked ="buttonl"/>
+
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="3" Grid.Column="0" Clicked ="buttonm"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="3" Grid.Column="1" Clicked ="buttonn"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="3" Grid.Column="2" Clicked ="buttono"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="3" Grid.Column="3"/>
+
+
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="4" Grid.Column="0" Clicked ="buttonp"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="4" Grid.Column="1" Clicked ="buttonq"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="4" Grid.Column="2" Clicked ="buttonr"/>
+        <Button FontSize="Large" Text="SandWich(11$)" Grid.Row="4" Grid.Column="3" Clicked ="buttons"/>
+
+        </Grid>
+ 
+ 
+</ContentPage>
